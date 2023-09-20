@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Addition3 {
 
     public static void main(String[] args) {
-        double a ;
+        int a ;
         double b ;
 
 
@@ -15,7 +15,7 @@ public class Addition3 {
        // char c = sc.nextLine().charAt(0);
 
         System.out.println("Enter a=");
-        a = sc.nextDouble();
+        a = sc.nextInt();
 
         System.out.println("Enter b=");
         b = sc.nextDouble();
