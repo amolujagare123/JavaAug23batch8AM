@@ -17,7 +17,7 @@ public class SplitDemo5 {
                 System.out.println(stArr[i]);
         }
 
-        /* solution :
+        /* solution :     .
         1. Get individual string by split - stArr[i]
         2. individual string length
         3. index of last character - l-1
