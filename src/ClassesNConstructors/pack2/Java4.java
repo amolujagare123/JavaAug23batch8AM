@@ -11,7 +11,7 @@ public class Java4 {
 
         Java3 j3 = new Java3();
         j3.str ="";
-        j3.c = 'j';
+       // j3.c = 'j';
     }
 
 }
