@@ -3,6 +3,7 @@ package InheritanceDemo;
 
 class Bird
 {
+    int speed = 45 ;
     void fly()
     {
         System.out.println("fly");
@@ -14,6 +15,7 @@ class Sparrow extends Bird
     void sparrowColor()
     {
         System.out.println("yellow");
+        System.out.println(speed);
     }
 }
 
