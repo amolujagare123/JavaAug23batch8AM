@@ -1,4 +1,4 @@
-package InheritanceDemo.SuperDemo;
+package InheritanceDemo.Polymorphism;
 
 public class Employee {
 
@@ -55,10 +55,18 @@ class Programmer extends Employee
    }
 
     public static void main(String[] args) {
+
         Programmer p = new Programmer();
+
+        Programmer p1; // object reference
+
         System.out.println(p.bonus);
         p.programmerWork();
         p.calculateSalary();
+
+        Employee emp = new Programmer(); // upcasting
+
+        emp.calculateSalary();
 
     }
 }
