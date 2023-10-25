@@ -1,6 +1,6 @@
 package InheritanceDemo.Polymorphism;
 
-public class Employee {
+public /*final*/ class Employee {
 
     Employee()
     {
@@ -19,7 +19,7 @@ public class Employee {
         System.out.println("put attendance");
     }
 
-      void calculateSalary()
+    /*final*/  void calculateSalary()
     {
         int days = 28;
         int sal = 1500 * 28;
