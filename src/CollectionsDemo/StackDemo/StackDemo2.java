@@ -9,7 +9,7 @@ public class StackDemo2 {
 
         s.push("amol");
         s.push("romit");
-        s.push("krupa");
+        s.push("krupa");  //
         s.push("shubham");
         s.push("vijay");
         s.push("sneha");
